@@ -1,0 +1,99 @@
+/*&display=swap&subset=cyrillic-ext*/
+@import "null.css";
+
+/* Использовать после body 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+*/
+body{
+	font-size: 20px;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+.pages_color{
+	padding: 10px;
+	background-color: #794f45;
+	margin: 0px 0px 20px 0px;
+}
+.pages_image{
+	padding: 10px;
+	background-image: url("../img/photo_1.png");
+	margin: 0px 0px 20px 0px;
+}
+.pages_gradient{
+	padding: 10px;
+	background-image: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 53%,rgba(0, 212, 255, 1) 100%);
+	margin: 0px 0px 20px 0px;
+}
+.pages_universal{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png");
+	margin: 0px 0px 20px 0px;
+}
+.pages_iconone{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_icontwo{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") repeat-x;
+	margin: 0px 0px 20px 0px;
+}
+.pages_iconthree{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") repeat-y;
+	margin: 0px 0px 20px 0px;
+}
+.pages_iconfor{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") space;
+	margin: 0px 0px 20px 0px;
+}
+.pages_positionone{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 50% no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_positiontwo{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 0 0 no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_positionthree{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 50% 0 no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_sizeone{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 50% 0 / 200px no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_sizetwo{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 50% 0 / contain no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_sizethree{
+	padding: 10px;
+	background:moccasin url("../img/photo_2.png") 50% 0 / auto 50% no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.pages_attachment{
+	padding: 10px;
+	background: moccasin url("../img/photo_1.png") fixed;
+	margin: 0px 0px 20px 0px;
+}
+p{
+	margin: 0px 0px 30px 0px;
+}
+li{
+	background: url("../img/photo_2.png")100% 0/20px no-repeat;
+	padding: 0px 0px 15px 0px;
+	max-width: 110px;
+}
